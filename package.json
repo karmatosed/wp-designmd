@@ -1,0 +1,20 @@
+{
+  "name": "wp-designmd",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "wp-scripts build",
+    "postbuild": "cp node_modules/@wordpress/theme/src/prebuilt/css/design-tokens.css build/design-tokens.css",
+    "start": "wp-scripts start",
+    "test": "wp-scripts test-unit-js"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "*"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "*",
+    "@wordpress/components": "*",
+    "@wordpress/element": "*",
+    "@wordpress/i18n": "*",
+    "@wordpress/theme": "*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"require": {
+		"mustangostang/spyc": "^0.6"
+	},
+	"autoload": {
+		"classmap": [
+			"includes/"
+		]
+	}
+}
